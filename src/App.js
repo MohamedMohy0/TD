@@ -20,7 +20,7 @@ function App() {
     setResult(null);
 
     try {
-    const baseURL = "https://7053a43b-27f1-42a1-8a1c-d887831f3f03-00-1ijb7rrt1ctvi.riker.replit.dev";
+    const baseURL = "https://thiefdetiect-production.up.railway.app";
     const response = await axios.get(`${baseURL}/check_number`, {
       params: { phone: normalizeNumber(phone) },
     });
