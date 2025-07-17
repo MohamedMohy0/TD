@@ -19,6 +19,7 @@ function App() {
     setStatus("loading");
     setResult(null);
 
+    
     try {
     const baseURL = "https://thiefdetiect-production.up.railway.app";
     const response = await axios.get(`${baseURL}/check_number`, {
